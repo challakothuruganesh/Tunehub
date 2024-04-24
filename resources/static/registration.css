@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0w2zOWB1te1bW573KFfnRhfyQ9c75UW2xA&usqp=CAU"); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     height: 150vh;
+    color: #333; /* Text color */
+}
+
+.login {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for login box */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-image: url("");
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555; /* Heading color */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666; /* Label color */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.genderlabel {
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* Submit button background color */
+    color: #fff; /* Submit button text color */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.genderlabel{
+	display: flex;
+}
+ 
